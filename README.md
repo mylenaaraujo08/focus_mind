@@ -2,6 +2,10 @@
 
 FocusMind é uma aplicação desktop desenvolvida em Python com Tkinter que oferece recursos de leitura acessível, especialmente voltada para pessoas com dislexia. O aplicativo inclui funcionalidades de texto-para-fala, coloração de sílabas e uma biblioteca de histórias clássicas.
 
+## Video do Sistema
+
+https://drive.google.com/file/d/1cCH7hs11-JliYhesoYcmO1yjF2jAhCdr/view?usp=sharing
+
 ## 🚀 Funcionalidades
 
 - **Leitura Guiada**: Carregue arquivos TXT, PDF e DOCX para leitura com narração
