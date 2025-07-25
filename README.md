@@ -74,31 +74,6 @@ python main.py
 ### Método 2: Arquivo Alternativo
 ```bash
 python app.py
-```
-
-## 📁 Estrutura do Projeto
-
-```
-FocusMind/
-├── main.py                 # Arquivo principal
-├── app.py                  # Arquivo alternativo de execução
-├── users.json              # Dados dos usuários
-├── stored_files.json       # Arquivos salvos
-├── frames/                 # Módulos da interface
-│   ├── __init__.py
-│   ├── login_frame.py      # Tela de login
-│   ├── register_frame.py   # Tela de cadastro
-│   ├── selection_frame.py  # Menu principal
-│   ├── leitura_frame.py    # Leitura guiada
-│   ├── biblioteca_frame.py # Biblioteca de histórias
-│   ├── foco_frame.py       # Frame de foco
-│   └── forgot_password_frame.py
-├── utils/                  # Utilitários
-│   └── user_manager.py
-├── imagem/                 # Recursos gráficos
-│   └── logo.png
-└── __pycache__/           # Cache do Python
-```
 
 ## 🎯 Como Usar
 
@@ -171,19 +146,4 @@ Para contribuir com o projeto:
 2. Crie uma branch para sua feature
 3. Commit suas mudanças
 4. Faça um pull request
-
-## 📄 Licença
-
-Este projeto está sob licença MIT. Veja o arquivo LICENSE para mais detalhes.
-
-## 📞 Suporte
-
-Em caso de problemas:
-1. Verifique se todas as dependências estão instaladas
-2. Certifique-se de estar usando Windows (devido ao SAPI)
-3. Verifique se o Python é 3.8 ou superior
-4. Consulte a seção de solução de problemas acima
-
 ---
-
-**Desenvolvido
