@@ -124,26 +124,7 @@ class RegisterFrame(tk.Frame):
                                bg=self.colors["purple"], fg=self.colors["white"], 
                                font=("Segoe UI", 12, "bold"), relief="flat", 
                                padx=25, pady=10, cursor="hand2")
-        back_button.pack(side="left")
-        
-        info_frame = tk.Frame(center_frame, bg=self.colors["light_cream"], 
-                             relief="solid", bd=2, width=400)
-        info_frame.pack(padx=30, fill="x")
-        
-        tk.Label(info_frame, text="ℹ️ Informações", 
-                font=("Segoe UI", 12, "bold"), 
-                bg=self.colors["light_cream"], 
-                fg=self.colors["dark_blue"]).pack(pady=(12, 8))
-        
-        info_text = """• Nome de usuário único (mín. 3 caracteres)
-• Senha segura (mín. 4 caracteres)
-• Confirme sua senha corretamente"""
-        
-        tk.Label(info_frame, text=info_text, 
-                font=("Segoe UI", 10), 
-                bg=self.colors["light_cream"], 
-                fg=self.colors["dark_text"],
-                justify="left").pack(pady=(0, 12), padx=15)
+        back_button.pack(side="left")      
         
         self.bind_enter_keys()
 
